@@ -35,3 +35,41 @@ function loginUserMessage(username = "Rani"){
 // console.log(loginUserMessage("yash"));
 console.log(loginUserMessage("pihu"));
 
+
+// function calculateCaratPrice(...num1){  //... rest operator
+//     return num1
+// }
+// console.log(calculateCaratPrice(2,3,4));
+
+// function calculateCaratPrice(val1,val2,...num1){  //... rest operator
+//     return num1
+// }
+// console.log(calculateCaratPrice(2,3,4,100));
+
+
+const user = {
+    name:"rrr",
+    price: 199
+}
+
+function handleAnyObjct(anyObject){
+    console.log(`The username is ${anyObject.name} and price is ${anyObject.price}`);
+    
+}
+// console.log(handleAnyObjct(user));
+
+handleAnyObjct({
+    name:"rrr",
+    price: 199
+})
+
+const myNewArray = [100,200,300,400]
+
+function getArray(myArray){
+   return myArray[2]
+}
+
+console.log(getArray(myNewArray));
+console.log(getArray([100,200,300,400]));
+
+
