@@ -8,7 +8,7 @@ const tinderUser1 = {}
 tinderUser.id = "123"
 tinderUser.name = "nikki"
 tinderUser.isLoggedIn = false
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
 const regularUser = {
@@ -44,14 +44,41 @@ const users = [
     }
 ]
 
-console.log(users);
-users[1].email
+// console.log(users);
+// users[1].email
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('isLoggedIn'));
+// console.log(Object.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName: "js course",
+    couseInstructor: "hitesh",
+    coursePrice: "999"
+}
+console.log(course.coursePrice);
+
+const {couseInstructor: instructor}= course
+// console.log(couseInstructor);
+console.log(instructor);
+
+//json
+//objects of json
+// {
+//     "name":"nikki",
+//     "age":24,
+//     "price": "free"
+// }
+//array of objects
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
 
 
 
